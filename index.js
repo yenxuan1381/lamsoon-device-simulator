@@ -55,7 +55,7 @@ for (let i = 1; i <= POWER_DEVICE_COUNT; i += 1) {
     tmp = 'lamsoon-main-server-rack-6-KVM5'
   } else if(i == 3){
     tmp = 'lamsoon-server-ac-C'
-  } else if (i == 2){
+  } else if (i == 4){
     tmp = 'lamsoon-server-ac-D'
   }
 
