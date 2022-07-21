@@ -60,7 +60,7 @@ for (let i = 1; i <= POWER_DEVICE_COUNT; i += 1) {
   }
 
   powerDevices.push({
-    deviceId: `tmp`,
+    deviceId: `${tmp}`,
     vol1: new Simulator((VOLTAGE_MAX + VOLTAGE_MIN) / 2, 1, VOLTAGE_MIN, VOLTAGE_MAX, 2), // energy, active power
     cur1: new Simulator((CURRENT_MAX + CURRENT_MIN) / 2, 5, CURRENT_MIN, CURRENT_MAX, 2),
     pow1: new Simulator((POWER_MAX + POWER_MIN) / 2, 5, POWER_MIN, POWER_MAX, 2),
